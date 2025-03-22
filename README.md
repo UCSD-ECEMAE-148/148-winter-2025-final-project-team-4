@@ -12,8 +12,11 @@
     <li><a href="#team-members">Team Members</a></li>
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#what-we-promised">Promises and Stretch Goals</a></li>
+    <li><a href="#hardware">Hardware</a></li>
+    <li><a href="#software">Software</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#challenges">Challenges</a></li>
+    <li><a href="#documnetation">Documentation</a></li>
     <li><a href="#Potential-Improvements">Potential Improvements</a></li>
   </ol>
 <hr>

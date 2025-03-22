@@ -3,5 +3,5 @@
 ### <div align="center">ECE MAE 148 Final Project</div>
 #### <div align="center"> Team 4 Winter 2025 </div>
 <p align = center>
-  <img width="800" alt="Car Picture" src="images/car_picture.jpg">
+  <img width="800" alt="Car Picture" src="image/car_picture.jpg">
 </p>

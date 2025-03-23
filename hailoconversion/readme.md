@@ -1,4 +1,4 @@
-# Convert DonkeyCar Keras .h5 files to Hailo .hef files to be used with a Persistent Model
+# Convert DonkeyCar Keras .h5 files to Hailo .hef files (Can be used with a Persistent Model)
 1) Go to https://hailo.ai/developer-zone/
 2) Make an account
 3) Start up a Linux terminal

@@ -38,13 +38,27 @@ Our project aimed to measure the performance of deep-learning models trained on 
 <hr>
 
 ## Promises and Stretch Goals
-Promised
-*Benchmarked performance for:
-  * Jetson Nano w Tensorflow/TensorRT
-    <img width="800" alt="Nano Picture" src="https://m.media-amazon.com/images/I/71alMFID+vL._AC_UF894,1000_QL80_.jpg">
-  * Jetson NX w Tensorflow/TensorRT
-  * RPI w Tensorflow/HailoRT
-*Documentation for the Process
+
+## Promises and Stretch Goals
+
+### Promised
+- Benchmarked performance for:
+
+  - **Jetson Nano w/ Tensorflow/TensorRT**  
+    <br>  
+    <img width="400" alt="Nano Picture" src="https://m.media-amazon.com/images/I/71alMFID+vL._AC_UF894,1000_QL80_.jpg">
+
+  - **Jetson NX w/ Tensorflow/TensorRT**  
+    <br>  
+    <img width="400" alt="NX Picture" src="https://m.media-amazon.com/images/I/71TiOw6fSuL._AC_UF894,1000_QL80_.jpg">
+
+  - **RPI w/ Tensorflow/HailoRT**  
+    <br>  
+    <img width="400" alt="RPI Picture" src="https://botland.store/img/art/inne/24986_3a.jpg">
+
+- Documentation for the Process
+
+
 
 Stretch Goals
 * Benchmarked performance for models with different resolutions

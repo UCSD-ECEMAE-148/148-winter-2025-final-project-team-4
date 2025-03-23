@@ -95,7 +95,7 @@ Stretch Goals
   - JetsonNX/Jetson Nano TensorRT Donkey Setup, Benchmarking with RT, Drive - Model
 - [RPI Setup & AIHAT+ Benchmarking](https://docs.google.com/document/d/1QD8mm4k70a3tMuctATGWsUEb5U5Y7lgBpjXv3FvxDJg/edit?usp=sharing)
   -Raspberry Pi Donkey Setup, Benchmarking with Tensor Flow and TFlite
-  -Setting up Hailo on Raspberry Pi
+    -Setting up Hailo on Raspberry Pi
 
 <hr>
 

@@ -113,7 +113,7 @@ Stretch Goals
 
 ## Potential Improvements
 - Finish optimizing the integration of Hailo in DonkeyCar
-  - Though we were able to get a .hef file to run in DonkeyCar, based on the results and what we expected, the integration could be performed more efficiently. Our more efficient persistent model integration remains untested at this point.
+  - Though we were able to get a .hef file to run in DonkeyCar, based on the results and what we expected, the integration could be performed more efficiently. Although we did make a more efficient integration, this persistent model integration remains untested at this point.
 - Test Models at Different Resolutions
   - Test and optimize models based on OAKD lite resolution and hardware (Jetson vs. Raspberry Pi 5) to find the highest-performing resolutions for deep learning.
 - Continue to Optimize DonkeyCar Training

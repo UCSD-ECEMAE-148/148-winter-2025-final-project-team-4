@@ -16,6 +16,7 @@ from docopt import docopt
 import donkeycar as dk
 from donkeycar.pipeline.training import train
 import tensorflow as tf
+from tensorflow.keras import mixed_precision
 import os
 
 
@@ -39,4 +40,8 @@ if __name__ == "__main__":
                 tf.config.experimental.set_memory_growth(gpu, True)
         except RuntimeError as e:
             print(e)
+    
+    # If using mixed precision, ensure you lower your learning rate for stability
+    # mixed_precision.set_global_policy('mixed_float16')
+    
     main()

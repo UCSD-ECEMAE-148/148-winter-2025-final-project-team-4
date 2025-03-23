@@ -91,7 +91,8 @@ Stretch Goals
 - Document the process for setting up DonkeyCar on the RPI 5.
 - Document the process for converting linear (.h5) models into TensorRT directories and Hailo Executable Files (.hef through AIHAT+).
 - Benchmarked performance for 160x120 resolution model across all hardware.
-- Load and integrate Hailo Executable Files into DonkeyCar.
+- Load and integrate Hailo Executable Files (.hef) into DonkeyCar.
+- Create a .h5 to .hef converter in Python
 <hr>
 
 ## Challenges
@@ -113,8 +114,8 @@ Stretch Goals
 <hr>
 
 ## Potential Improvements
-- Optimize the integration of Hailo in DonkeyCar
-  - Though we were able to get a .hef file to run in DonkeyCar, based on the results and what we expected, the integration could be performed more efficiently.
+- Finish optimizing the integration of Hailo in DonkeyCar
+  - Though we were able to get a .hef file to run in DonkeyCar, based on the results and what we expected, the integration could be performed more efficiently. Our more efficient persistent model integration remains untested at this point.
 - Test Models at Different Resolutions
   - Test and optimize models based on OAKD lite resolution and hardware (Jetson vs. Raspberry Pi 5) to find the highest-performing resolutions for deep learning.
 - Continue to Optimize DonkeyCar Training

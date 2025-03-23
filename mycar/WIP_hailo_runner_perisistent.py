@@ -47,19 +47,24 @@ class HailoModelRunner:
 
         bindings = self.configured_model.create_bindings()
 
+        input_binding = bindings.input(self.input_vstream_info.name)
+        input_binding.set_buffer(dataset)
+
         try:
-            self.configured_model.run([bindings], int(100))
+            self.configured_model.run([bindings], timeout_msec=100)
         except Exception as e:
             print("Error during persistent run:", e)
             raise
 
-        outputs = bindings.output(self.output_vstream_info.name).get_buffer()
-        print("Inference output:", outputs)
+        output_buffer = bindings.output(self.output_vstream_info.name).get_buffer()
+        print("Inference output:", output_buffer)
 
-        if outputs.ndim == 2 and outputs.shape[1] == 1:
-            steering = outputs[0, 0]
+        if output_buffer.ndim == 2 and output_buffer.shape[1] == 1:
+            steering = float(output_buffer[0, 0])
             throttle = compute_throttle(steering)
         else:
-            steering = outputs[0, 0]
-            throttle = outputs[0, 1]
+            steering = float(output_buffer[0, 0])
+            throttle = float(output_buffer[0, 1])
+
         return steering, throttle
+

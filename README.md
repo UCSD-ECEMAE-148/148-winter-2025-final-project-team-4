@@ -24,13 +24,13 @@
 <hr>
 
 ## Team Members
-Jake Honma - MAE Controls & Robotics - Class of 2026
+Jake Honma - MAE Controls & Robotics - Class of 2026 - jhonma@ucsd.edu
 
-Harsh Salva - MAE Controls & Robotics - Class of 2026
+Harsh Salva - MAE Controls & Robotics - Class of 2026 - hsavla@ucsd.edu
 
-Andrew Dunker - ECE ML & Controls - Class of 2025
+Andrew Dunker - ECE ML & Controls - Class of 2025 - adunker@ucsd.edu
 
-Jingli Zhou - Math/CS- Class of 2027
+Jingli Zhou - Math/CS- Class of 2027 - jiz228@ucsd.edu
 <hr>
 
 ## Abstract

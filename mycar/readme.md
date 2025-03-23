@@ -14,6 +14,3 @@ The work-in-progress version of this script (WIP_hailorunner_persistent.py) inte
 
 ## train.py
 Slightly optimized memory management during training. Allowed us to train a higher resolution model. Added dynamic memory allocation and tested mixed precision training.
-
-## tflite_profile.py
-Added support for .tflite models to DonkeyCar

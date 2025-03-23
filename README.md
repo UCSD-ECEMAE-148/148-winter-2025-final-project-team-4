@@ -99,6 +99,7 @@ Stretch Goals
 - Without GPU access in a previously set-up docker container, TensorRT conversion could not be completed. 
 - Due to the recency of which Hailo Executable Files were introduced and the limited documentation, attempting to integrate .hef files into DonkeyCar was difficult.
 - We could not physically test the performance of models through manage.py drive due to VESC issues at low speeds.
+- Raspberry Pi 5 requires more power to run with the AI Hat+ than we were able to provide with the soldered on USB-C connection from the DC-DC converter on our car.
 
 <hr>
 

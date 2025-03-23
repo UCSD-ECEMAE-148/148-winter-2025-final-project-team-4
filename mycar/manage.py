@@ -324,6 +324,11 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
 
             model_reload_cb = reload_model
 
+        elif model_path.endswith(".hef"):
+            from hailo_runner import HailoModelRunner
+            kl = HailoModelRunner(model_path)
+
+
         elif '.json' in model_path:
             # when we have a .json extension
             # load the model from there and look for a matching
@@ -412,7 +417,11 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
                   inputs=['cam/image_array'], outputs=['cam/image_array_trans'])
             inputs = ['cam/image_array_trans'] + inputs[1:]
 
-        V.add(kl, inputs=inputs, outputs=outputs, run_condition='run_pilot')
+        if model_path.endswith(".hef"):
+            V.add(kl, inputs=['cam/image_array'], outputs=['pilot/angle', 'pilot/throttle'], run_condition='run_pilot')
+        else:
+            V.add(kl, inputs=inputs, outputs=outputs, run_condition='run_pilot')
+
 
     #
     # stop at a stop sign

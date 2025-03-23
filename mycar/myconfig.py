@@ -21,13 +21,13 @@
 # 
 # #CAMERA
 CAMERA_TYPE = "OAKD"   # (PICAM|WEBCAM|CVCAM|CSIC|V4L|D435|MOCK|IMAGE_LIST)
-IMAGE_W = 1280
-IMAGE_H = 720
+IMAGE_W = 160
+IMAGE_H = 120
 # IMAGE_DEPTH = 3         # default RGB=3, make 1 for mono
 # CAMERA_FRAMERATE = DRIVE_LOOP_HZ
 # CAMERA_VFLIP = False
 # CAMERA_HFLIP = False
-CAMERA_INDEX = 0  # used for 'WEBCAM' and 'CVCAM' when there is more than one camera connected 
+# CAMERA_INDEX = 0  # used for 'WEBCAM' and 'CVCAM' when there is more than one camera connected 
 # # For CSIC camera - If the camera is mounted in a rotated position, changing the below parameter will correct the output frame orientation
 # CSIC_CAM_GSTREAMER_FLIP_PARM = 0 # (0 => none , 4 => Flip horizontally, 6 => Flip vertically)
 # BGR2RGB = False  # true to convert from BRG format to RGB format; requires opencv
@@ -66,7 +66,7 @@ CAMERA_INDEX = 0  # used for 'WEBCAM' and 'CVCAM' when there is more than one ca
 # # (deprecated) "PIGPIO_PWM" uses Raspberrys internal PWM
 # # (deprecated) "I2C_SERVO" uses PCA9685 servo controller to control a steering servo and an ESC, as in a standard RC car
 # #
-DRIVE_TRAIN_TYPE = "VESC"
+# DRIVE_TRAIN_TYPE = "PWM_STEERING_THROTTLE"
 # 
 # #
 # # PWM_STEERING_THROTTLE
@@ -219,15 +219,16 @@ DRIVE_TRAIN_TYPE = "VESC"
 # STEERING_LEFT_PWM = 460    # pwm value for full left steering (use `donkey calibrate` to measure value for your car)
 # STEERING_RIGHT_PWM = 290   # pwm value for full right steering (use `donkey calibrate` to measure value for your car)
 # 
+# DRIVE_TRAIN_TYPE == "VESC"
 # #VESC controller, primarily need to change VESC_SERIAL_PORT  and VESC_MAX_SPEED_PERCENT
-VESC_MAX_SPEED_PERCENT =.2  # Max speed as a percent of the actual speed
-VESC_SERIAL_PORT= "/dev/ttyACM0" # Serial device to use for communication. Can check with ls /dev/tty*
-VESC_HAS_SENSOR= True # Whether or not the bldc motor is using a hall effect sensor
-VESC_START_HEARTBEAT= True # Whether or not to automatically start the heartbeat thread that will keep commands alive.
-VESC_BAUDRATE= 115200 # baudrate for the serial communication. Shouldn't need to change this.
-VESC_TIMEOUT= 0.05 # timeout for the serial communication
-VESC_STEERING_SCALE= 0.5 # VESC accepts steering inputs from 0 to 1. Joystick is usually -1 to 1. This changes it to -0.5 to 0.5
-VESC_STEERING_OFFSET = 0.5 # VESC accepts steering inputs from 0 to 1. Coupled with above change we move Joystick to 0 to 1
+# VESC_MAX_SPEED_PERCENT =.2  # Max speed as a percent of the actual speed
+# VESC_SERIAL_PORT= "/dev/ttyACM0" # Serial device to use for communication. Can check with ls /dev/tty*
+# VESC_HAS_SENSOR= True # Whether or not the bldc motor is using a hall effect sensor
+# VESC_START_HEARTBEAT= True # Whether or not to automatically start the heartbeat thread that will keep commands alive.
+# VESC_BAUDRATE= 115200 # baudrate for the serial communication. Shouldn't need to change this.
+# VESC_TIMEOUT= 0.05 # timeout for the serial communication
+# VESC_STEERING_SCALE= 0.5 # VESC accepts steering inputs from 0 to 1. Joystick is usually -1 to 1. This changes it to -0.5 to 0.5
+# VESC_STEERING_OFFSET = 0.5 # VESC accepts steering inputs from 0 to 1. Coupled with above change we move Joystick to 0 to 1
 # 
 # #
 # # DC_STEER_THROTTLE with one motor as steering, one as drive
@@ -363,7 +364,7 @@ VESC_STEERING_OFFSET = 0.5 # VESC accepts steering inputs from 0 to 1. Coupled w
 # # tensorflow models: (linear|categorical|tflite_linear|tensorrt_linear)
 # # pytorch models: (resnet18)
 # DEFAULT_MODEL_TYPE = 'linear'
-BATCH_SIZE = 8                   #how many records to use when doing one pass of gradient decent. Use a smaller number if your gpu is running out of memory.
+# BATCH_SIZE = 128                #how many records to use when doing one pass of gradient decent. Use a smaller number if your gpu is running out of memory.
 # TRAIN_TEST_SPLIT = 0.8          #what percent of records to use for training. the remaining used for validation.
 # MAX_EPOCHS = 100                #how many times to visit all records of your data
 # SHOW_PLOT = True                #would you like to see a pop up display of final loss?

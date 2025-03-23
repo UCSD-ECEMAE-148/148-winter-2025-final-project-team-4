@@ -1,0 +1,1 @@
+2025-03-20 02:50:20,832 - WARNING - pyhailort.py:1022 - Given input data dtype (float64) is different than inferred dtype (float32). conversion for every frame will reduce performance

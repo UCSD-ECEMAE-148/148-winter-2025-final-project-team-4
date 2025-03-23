@@ -1,0 +1,612 @@
+[2025-03-08 17:47:08.224] [1820] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-08 17:47:08.244] [1820] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-08 17:47:08.245] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:08.245] [1820] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-08 17:47:08.246] [1820] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-08 17:47:08.247] [1820] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-08 17:47:08.255] [1820] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-08 17:47:08.255] [1820] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-08 17:47:08.255] [1820] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-08 17:47:08.255] [1820] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-08 17:47:08.258] [1820] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 11.603161 milliseconds
+[2025-03-08 17:47:08.258] [1820] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 12.319139 milliseconds
+[2025-03-08 17:47:08.260] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:08.261] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:08.261] [1820] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.237307 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-08 17:47:08.261] [1820] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.251177 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-08 17:47:08.263] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:08.264] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:23.264] [1838] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-08 17:47:23.264] [1840] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-08 17:47:23.264] [1839] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-08 17:47:23.270] [1820] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.003944 ms
+[2025-03-08 17:47:23.270] [1820] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.017703 ms
+[2025-03-08 17:47:23.332] [1820] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-08 17:47:23.345] [1820] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-08 17:47:23.346] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:23.346] [1820] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-08 17:47:23.346] [1820] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-08 17:47:23.346] [1820] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-08 17:47:23.351] [1820] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-08 17:47:23.351] [1820] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-08 17:47:23.351] [1820] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-08 17:47:23.351] [1820] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-08 17:47:23.354] [1820] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 7.790643 milliseconds
+[2025-03-08 17:47:23.354] [1820] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.327205 milliseconds
+[2025-03-08 17:47:23.355] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:23.356] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:23.356] [1820] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.233698 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-08 17:47:23.356] [1820] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.242624 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-08 17:47:23.358] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:23.359] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:23.359] [1820] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-08 17:47:23.359] [1820] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-08 17:47:23.359] [1820] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-08 17:47:23.359] [1820] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-08 17:47:23.360] [1820] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-08 17:47:38.361] [1855] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-08 17:47:38.361] [1863] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-08 17:47:38.361] [1857] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-08 17:47:38.361] [1857] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-08 17:47:38.361] [1863] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-08 17:47:38.361] [1863] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-08 17:47:38.361] [1857] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-08 17:47:38.361] [1855] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-08 17:47:38.361] [1858] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-08 17:47:38.361] [1855] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-08 17:47:38.361] [1858] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-08 17:47:38.361] [1862] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-08 17:47:38.361] [1862] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-08 17:47:38.361] [1856] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-08 17:47:38.361] [1856] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-08 17:47:38.361] [1861] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-08 17:47:38.361] [1861] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-08 17:47:38.366] [1855] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-08 17:47:38.366] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:38.366] [1856] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-08 17:47:38.366] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:38.366] [1857] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-08 17:47:38.366] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:38.366] [1858] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-08 17:47:38.366] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:38.367] [1820] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.003741 ms
+[2025-03-08 17:47:38.367] [1820] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.010925 ms
+[2025-03-08 17:47:38.424] [1820] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-08 17:47:38.436] [1820] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-08 17:47:38.437] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:38.437] [1820] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-08 17:47:38.438] [1820] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-08 17:47:38.438] [1820] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-08 17:47:38.443] [1820] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-08 17:47:38.443] [1820] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-08 17:47:38.443] [1820] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-08 17:47:38.443] [1820] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-08 17:47:38.445] [1820] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 7.601955 milliseconds
+[2025-03-08 17:47:38.445] [1820] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 7.882377 milliseconds
+[2025-03-08 17:47:38.447] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:38.448] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:38.448] [1820] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.246848 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-08 17:47:38.448] [1820] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.254941 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-08 17:47:38.449] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-08 17:47:38.450] [1820] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-08 17:47:38.451] [1820] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-08 17:47:53.451] [1878] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-08 17:47:53.451] [1878] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-08 17:47:53.451] [1880] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-08 17:47:53.451] [1880] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-08 17:47:53.451] [1878] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-08 17:47:53.451] [1880] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-08 17:47:53.451] [1881] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-08 17:47:53.451] [1879] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-08 17:47:53.451] [1881] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-08 17:47:53.451] [1885] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-08 17:47:53.451] [1885] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-08 17:47:53.451] [1886] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-08 17:47:53.451] [1886] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-08 17:47:53.451] [1886] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-08 17:47:53.451] [1879] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-08 17:47:53.451] [1884] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-08 17:47:53.451] [1884] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-08 17:47:53.452] [1878] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-08 17:47:53.452] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:53.452] [1879] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-08 17:47:53.452] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:53.452] [1880] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-08 17:47:53.452] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:53.452] [1881] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-08 17:47:53.452] [1820] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-08 17:47:53.452] [1820] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004704 ms
+[2025-03-08 17:47:53.452] [1820] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.013407 ms
+[2025-03-11 18:35:45.898] [1858] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 18:35:45.918] [1858] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 18:35:45.919] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:35:45.919] [1858] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 18:35:45.920] [1858] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-11 18:35:45.923] [1858] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-11 18:35:45.931] [1858] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:35:45.931] [1858] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:35:45.931] [1858] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 18:35:45.931] [1858] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 18:35:45.935] [1858] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 11.924059 milliseconds
+[2025-03-11 18:35:45.935] [1858] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.795734 milliseconds
+[2025-03-11 18:35:45.936] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:35:45.937] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:35:45.938] [1858] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.254849 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:35:45.938] [1858] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.270146 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:35:45.940] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:35:45.941] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:00.941] [1878] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 18:36:00.941] [1876] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:36:00.941] [1877] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:36:00.947] [1858] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004519 ms
+[2025-03-11 18:36:00.947] [1858] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.020019 ms
+[2025-03-11 18:36:01.002] [1858] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 18:36:01.014] [1858] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 18:36:01.016] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:01.016] [1858] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 18:36:01.016] [1858] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-11 18:36:01.016] [1858] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-11 18:36:01.021] [1858] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:36:01.021] [1858] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:36:01.021] [1858] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 18:36:01.021] [1858] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 18:36:01.024] [1858] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.149704 milliseconds
+[2025-03-11 18:36:01.024] [1858] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.439644 milliseconds
+[2025-03-11 18:36:01.026] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:01.027] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:01.027] [1858] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.242587 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:36:01.027] [1858] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.25344 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:36:01.029] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:01.030] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:01.030] [1858] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 18:36:01.030] [1858] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 18:36:01.030] [1858] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 18:36:01.030] [1858] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 18:36:01.032] [1858] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:36:16.032] [1893] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:36:16.032] [1901] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 18:36:16.032] [1901] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-11 18:36:16.032] [1901] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-11 18:36:16.032] [1895] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:36:16.032] [1895] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:36:16.032] [1895] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-11 18:36:16.032] [1893] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:36:16.032] [1896] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-11 18:36:16.032] [1893] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-11 18:36:16.032] [1896] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-11 18:36:16.032] [1900] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-11 18:36:16.032] [1900] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:36:16.032] [1894] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-11 18:36:16.032] [1894] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-11 18:36:16.032] [1899] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-11 18:36:16.032] [1899] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:36:16.038] [1893] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:36:16.038] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:16.038] [1894] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:36:16.038] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:16.038] [1895] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:36:16.038] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:16.038] [1896] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:36:16.038] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:16.038] [1858] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.003685 ms
+[2025-03-11 18:36:16.038] [1858] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.011056 ms
+[2025-03-11 18:36:16.078] [1858] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 18:36:16.091] [1858] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 18:36:16.092] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:16.092] [1858] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 18:36:16.092] [1858] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-11 18:36:16.092] [1858] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2025-03-11 18:36:16.097] [1858] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:36:16.097] [1858] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:36:16.097] [1858] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 18:36:16.097] [1858] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 18:36:16.100] [1858] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 7.673511 milliseconds
+[2025-03-11 18:36:16.100] [1858] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 7.956599 milliseconds
+[2025-03-11 18:36:16.101] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:16.102] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:16.102] [1858] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.221325 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:36:16.102] [1858] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.229826 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:36:16.104] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 18:36:16.105] [1858] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:36:31.105] [1918] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:36:31.105] [1916] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:36:31.105] [1924] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 18:36:31.105] [1916] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:36:31.105] [1918] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:36:31.105] [1924] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-11 18:36:31.105] [1916] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-11 18:36:31.105] [1924] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-11 18:36:31.105] [1918] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-11 18:36:31.105] [1917] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-11 18:36:31.105] [1917] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-11 18:36:31.105] [1919] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-11 18:36:31.105] [1919] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-11 18:36:31.105] [1922] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-11 18:36:31.105] [1922] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:36:31.105] [1923] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-11 18:36:31.105] [1923] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:36:31.106] [1916] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:36:31.106] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:31.106] [1917] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:36:31.106] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:31.106] [1918] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:36:31.106] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:31.106] [1919] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:36:31.106] [1858] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:36:31.106] [1858] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004222 ms
+[2025-03-11 18:36:31.106] [1858] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.012869 ms
+[2025-03-11 18:43:32.129] [1959] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 18:43:32.140] [1959] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 18:43:32.142] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:32.142] [1959] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 18:43:32.147] [1959] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:43:32.147] [1959] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:43:32.147] [1959] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 18:43:32.147] [1959] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 18:43:32.151] [1959] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.893894 milliseconds
+[2025-03-11 18:43:32.151] [1959] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 9.154472 milliseconds
+[2025-03-11 18:43:32.152] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:32.154] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:32.154] [1959] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.261466 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:43:32.154] [1959] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.276504 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:43:32.156] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:32.157] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:47.158] [1978] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:43:47.158] [1979] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 18:43:47.158] [1977] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:43:47.163] [1959] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004741 ms
+[2025-03-11 18:43:47.163] [1959] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.019 ms
+[2025-03-11 18:43:47.213] [1959] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 18:43:47.224] [1959] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 18:43:47.225] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:47.225] [1959] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 18:43:47.230] [1959] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:43:47.230] [1959] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:43:47.231] [1959] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 18:43:47.231] [1959] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 18:43:47.234] [1959] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.535452 milliseconds
+[2025-03-11 18:43:47.234] [1959] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.775789 milliseconds
+[2025-03-11 18:43:47.235] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:47.237] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:47.237] [1959] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.237003 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:43:47.237] [1959] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.24817 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:43:47.239] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 18:43:47.240] [1959] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:43:47.241] [1959] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:43:47.241] [1959] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 18:43:47.241] [1959] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:44:02.241] [1994] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:44:02.241] [2002] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 18:44:02.241] [1996] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:44:02.241] [1996] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:44:02.241] [1994] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:44:02.241] [2002] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-11 18:44:02.241] [1994] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-11 18:44:02.241] [2002] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-11 18:44:02.241] [1996] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-11 18:44:02.241] [1995] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-11 18:44:02.241] [1995] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-11 18:44:02.241] [2000] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-11 18:44:02.241] [2000] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:44:02.241] [1997] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-11 18:44:02.241] [1997] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-11 18:44:02.241] [2001] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-11 18:44:02.241] [2001] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:44:02.246] [1994] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:44:02.246] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:02.246] [1995] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:44:02.246] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:02.246] [1996] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:44:02.246] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:02.246] [1997] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:44:02.246] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:02.247] [1959] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.003612 ms
+[2025-03-11 18:44:02.247] [1959] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.010334 ms
+[2025-03-11 18:44:02.284] [1959] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 18:44:02.296] [1959] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 18:44:02.297] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:44:02.297] [1959] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 18:44:02.302] [1959] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:44:02.302] [1959] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 18:44:02.302] [1959] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 18:44:02.302] [1959] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 18:44:02.305] [1959] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 7.94558 milliseconds
+[2025-03-11 18:44:02.305] [1959] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.168509 milliseconds
+[2025-03-11 18:44:02.306] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:44:02.307] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:44:02.308] [1959] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.220855 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:44:02.308] [1959] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.229392 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 18:44:02.309] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 18:44:02.310] [1959] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 18:44:17.311] [2021] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:44:17.311] [2019] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 18:44:17.311] [2019] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:44:17.311] [2021] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 18:44:17.311] [2019] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-11 18:44:17.311] [2021] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-11 18:44:17.311] [2020] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-11 18:44:17.311] [2020] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-11 18:44:17.311] [2022] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-11 18:44:17.311] [2025] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-11 18:44:17.311] [2025] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:44:17.311] [2022] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-11 18:44:17.311] [2027] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 18:44:17.311] [2026] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-11 18:44:17.311] [2026] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 18:44:17.311] [2027] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-11 18:44:17.311] [2027] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-11 18:44:17.316] [2019] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:44:17.316] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:17.316] [2020] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 18:44:17.316] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:17.316] [2021] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:44:17.316] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:17.316] [2022] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 18:44:17.316] [1959] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 18:44:17.316] [1959] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004111 ms
+[2025-03-11 18:44:17.316] [1959] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.010667 ms
+[2025-03-11 19:10:51.725] [2132] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 19:10:51.736] [2132] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 19:10:51.738] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:10:51.738] [2132] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 19:10:51.743] [2132] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:10:51.743] [2132] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:10:51.743] [2132] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 19:10:51.743] [2132] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 19:10:51.747] [2132] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.885219 milliseconds
+[2025-03-11 19:10:51.747] [2132] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 9.146015 milliseconds
+[2025-03-11 19:10:51.748] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:10:51.750] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:10:51.750] [2132] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.247943 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:10:51.750] [2132] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.262831 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:10:51.752] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:10:51.753] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:11:06.754] [2150] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:11:06.754] [2151] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:11:06.754] [2152] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 19:11:06.759] [2132] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004667 ms
+[2025-03-11 19:11:06.759] [2132] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.019722 ms
+[2025-03-11 19:11:06.813] [2132] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 19:11:06.824] [2132] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 19:11:06.825] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:11:06.826] [2132] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 19:11:06.831] [2132] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:11:06.831] [2132] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:11:06.831] [2132] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 19:11:06.831] [2132] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 19:11:06.834] [2132] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.672353 milliseconds
+[2025-03-11 19:11:06.834] [2132] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.913297 milliseconds
+[2025-03-11 19:11:06.836] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:11:06.837] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:11:06.837] [2132] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.242406 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:11:06.837] [2132] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.25372 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:11:06.839] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:11:06.840] [2132] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 19:11:06.841] [2132] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 19:18:23.688] [2251] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 19:18:23.700] [2251] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 19:18:23.701] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:23.701] [2251] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 19:18:23.707] [2251] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:18:23.707] [2251] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:18:23.707] [2251] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 19:18:23.707] [2251] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 19:18:23.710] [2251] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.601538 milliseconds
+[2025-03-11 19:18:23.710] [2251] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.852816 milliseconds
+[2025-03-11 19:18:23.712] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:23.713] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:23.713] [2251] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.248612 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:18:23.713] [2251] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.262019 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:18:23.715] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:23.716] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:38.717] [2271] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 19:18:38.717] [2269] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:18:38.717] [2270] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:18:38.722] [2251] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004481 ms
+[2025-03-11 19:18:38.722] [2251] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.018945 ms
+[2025-03-11 19:18:38.761] [2251] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 19:18:38.772] [2251] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 19:18:38.773] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:38.773] [2251] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 19:18:38.778] [2251] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:18:38.778] [2251] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:18:38.779] [2251] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 19:18:38.779] [2251] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 19:18:38.782] [2251] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 8.303409 milliseconds
+[2025-03-11 19:18:38.782] [2251] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.534243 milliseconds
+[2025-03-11 19:18:38.783] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:38.784] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:38.784] [2251] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.231148 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:18:38.784] [2251] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.241556 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:18:38.786] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:38.787] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:38.787] [2251] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 19:18:38.787] [2251] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 19:18:38.787] [2251] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 19:18:38.787] [2251] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 19:18:38.788] [2251] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 19:18:53.788] [2294] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 19:18:53.788] [2286] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:18:53.788] [2286] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 19:18:53.788] [2294] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-11 19:18:53.788] [2288] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:18:53.788] [2286] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-11 19:18:53.788] [2294] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-11 19:18:53.788] [2287] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-11 19:18:53.788] [2287] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-11 19:18:53.788] [2292] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-11 19:18:53.788] [2292] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 19:18:53.788] [2288] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 19:18:53.788] [2288] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-11 19:18:53.788] [2289] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-11 19:18:53.788] [2289] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-11 19:18:53.788] [2293] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-11 19:18:53.788] [2293] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 19:18:53.794] [2286] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 19:18:53.794] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 19:18:53.794] [2287] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 19:18:53.794] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 19:18:53.794] [2288] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 19:18:53.794] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 19:18:53.794] [2289] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 19:18:53.794] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 19:18:53.794] [2251] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004129 ms
+[2025-03-11 19:18:53.794] [2251] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.011315 ms
+[2025-03-11 19:18:53.836] [2251] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2025-03-11 19:18:53.848] [2251] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+[2025-03-11 19:18:53.849] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:53.849] [2251] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0000:01:00.0
+[2025-03-11 19:18:53.854] [2251] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:18:53.854] [2251] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2025-03-11 19:18:53.854] [2251] [HailoRT] [info] [internal_buffer_manager.cpp:202] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2025-03-11 19:18:53.854] [2251] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2025-03-11 19:18:53.857] [2251] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 7.957114 milliseconds
+[2025-03-11 19:18:53.857] [2251] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 8.174911 milliseconds
+[2025-03-11 19:18:53.858] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:53.859] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:53.860] [2251] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.219611 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:18:53.860] [2251] [HailoRT] [info] [core_op.cpp:156] [activate] Activating suarez took 0.227371 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2025-03-11 19:18:53.861] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating suarez/input_layer1...
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'suarez/input_layer1': (HwWriteEl3suarez/input_layer1 | hw_frame_size: 57600) >> HW
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1suarez/fc3 | hw_frame_size: 8)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1suarez/fc3)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc3...
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc3': HW >> (HwReadEl1suarez/fc3 | hw_frame_size: 8) >> (PullQEl_hw_read1suarez/fc3) >> (PostInferEl1suarez/fc3 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl1suarez/fc3 | timeout: 10s)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0suarez/fc4 | hw_frame_size: 8)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0suarez/fc4)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1))
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 19:18:53.862] [2251] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating suarez/fc4...
+[2025-03-11 19:18:53.863] [2251] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'suarez/fc4': HW >> (HwReadEl0suarez/fc4 | hw_frame_size: 8) >> (PullQEl_hw_read0suarez/fc4) >> (PostInferEl0suarez/fc4 | Padding Periph shape - src_shape: (1, 1, 1), dst_shape: (1, 1, 1)) >> (UserBuffQEl0suarez/fc4 | timeout: 10s)
+[2025-03-11 19:19:08.863] [2309] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:19:08.863] [2311] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:01:00.0)
+[2025-03-11 19:19:08.863] [2311] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 19:19:08.863] [2309] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2025-03-11 19:19:08.863] [2311] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read0suarez/fc4 was aborted!
+[2025-03-11 19:19:08.863] [2309] [HailoRT] [info] [queue_elements.cpp:738] [run_in_thread] run_pull of queue element PullQEl_hw_read1suarez/fc3 was aborted!
+[2025-03-11 19:19:08.863] [2312] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read0suarez/fc4!
+[2025-03-11 19:19:08.863] [2312] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl0suarez/fc4!
+[2025-03-11 19:19:08.863] [2316] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0suarez/fc4!
+[2025-03-11 19:19:08.863] [2316] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 19:19:08.863] [2310] [HailoRT] [info] [queue_elements.cpp:706] [run_pull] Shutdown event was signaled in dequeue of queue element PullQEl_hw_read1suarez/fc3!
+[2025-03-11 19:19:08.863] [2310] [HailoRT] [info] [queue_elements.cpp:862] [run_in_thread] Shutdown event was signaled in run_pull of UserBuffQEl1suarez/fc3!
+[2025-03-11 19:19:08.863] [2317] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream suarez/input_layer1 (device: 0000:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2025-03-11 19:19:08.863] [2315] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl1suarez/fc3!
+[2025-03-11 19:19:08.863] [2315] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2025-03-11 19:19:08.863] [2317] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=suarez/input_layer1) because stream was aborted
+[2025-03-11 19:19:08.863] [2317] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2025-03-11 19:19:08.863] [2309] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 19:19:08.863] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 19:19:08.863] [2310] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1suarez/fc3 is not running anymore, exiting..
+[2025-03-11 19:19:08.863] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1suarez/fc3 has 0 frames in his Queue on destruction
+[2025-03-11 19:19:08.863] [2311] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 19:19:08.863] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 19:19:08.863] [2312] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0suarez/fc4 is not running anymore, exiting..
+[2025-03-11 19:19:08.863] [2251] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0suarez/fc4 has 0 frames in his Queue on destruction
+[2025-03-11 19:19:08.864] [2251] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.00424 ms
+[2025-03-11 19:19:08.864] [2251] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.012833 ms

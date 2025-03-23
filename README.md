@@ -41,6 +41,7 @@ Our project aimed to measure the performance of deep-learning models trained on 
 Promised
 *Benchmarked performance for:
   * Jetson Nano w Tensorflow/TensorRT
+    <img width="800" alt="Nano Picture" src="https://m.media-amazon.com/images/I/71alMFID+vL._AC_UF894,1000_QL80_.jpg">
   * Jetson NX w Tensorflow/TensorRT
   * RPI w Tensorflow/HailoRT
 *Documentation for the Process

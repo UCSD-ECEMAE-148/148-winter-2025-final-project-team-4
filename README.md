@@ -80,7 +80,7 @@ Stretch Goals
 <hr>
 
 ## Challenges
--Going into the project our Jetson SD card was corrupted. Initially, we used a backup image, but this was using a lower version JetPack that did not allow us to test models. We then had to completely reflash our SD card, reinstall all the dependencies, and setup up DonkeyCar again.
+- Going into the project our Jetson SD card was corrupted. Initially, we used a backup image, but this was using a lower version JetPack that did not allow us to test models. We then had to completely reflash our SD card, reinstall all the dependencies, and setup up DonkeyCar again.
 - There is out-of-date documentation for converting linear models to utilize TensorRT GPU acceleration. This needed to be updated and varied based on different dependencies across the Jetson Nano & Jetson NX.
 - Without GPU access in a previously set-up docker container, TensorRT conversion could not be completed. 
 - Due to the recency of which Hailo Executable Files were introduced and the limited documentation, attempting to integrate .hef files into DonkeyCar was difficult.

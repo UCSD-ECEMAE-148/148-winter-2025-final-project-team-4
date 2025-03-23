@@ -39,8 +39,6 @@ Our project aimed to measure the performance of deep-learning models trained on 
 
 ## Promises and Stretch Goals
 
-## Promises and Stretch Goals
-
 ### Promised
 - Benchmarked performance for:
 

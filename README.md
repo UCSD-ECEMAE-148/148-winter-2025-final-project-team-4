@@ -43,7 +43,7 @@ Promised
   * Jetson Nano w Tensorflow/TensorRT
     <img width="800" alt="Nano Picture" src="https://m.media-amazon.com/images/I/71alMFID+vL._AC_UF894,1000_QL80_.jpg">
   * Jetson NX w Tensorflow/TensorRT
-    <img width="800" alt="NX Picture" src="[https://m.media-amazon.com/images/I/71alMFID+vL._AC_UF894,1000_QL80_.jpg](https://m.media-amazon.com/images/I/71TiOw6fSuL._AC_UF894,1000_QL80_.jpg)">
+    <img width="800" alt="NX Picture" src="https://m.media-amazon.com/images/I/71TiOw6fSuL._AC_UF894,1000_QL80_.jpg">
   * RPI w Tensorflow/HailoRT
     <img width="800" alt="RPI Picture" src="https://botland.store/img/art/inne/24986_3a.jpg">
 *Documentation for the Process

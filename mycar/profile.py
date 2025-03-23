@@ -42,8 +42,6 @@ def profile(model_path, model_type):
             timer.on_frame()
 
     except KeyboardInterrupt:
-        if model_path.endswith(".hef"):
-            model.shutdown()
         pass
 
 

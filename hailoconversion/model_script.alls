@@ -1,0 +1,4 @@
+quantization_param(model/output_layer1,precision_mode=a16_w16)
+quantization_param(model/output_layer2,precision_mode=a16_w16)
+allocator_param(enable_muxer=True)
+hef_param(should_use_sequencer=True,params_load_time_compression=True)

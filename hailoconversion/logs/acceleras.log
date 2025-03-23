@@ -1,0 +1,19 @@
+2025-03-22 23:05:11,151 - WARNING - mo_config.py:166 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's no available GPU
+2025-03-22 23:05:11,151 - WARNING - mo_config.py:231 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2025-03-22 23:05:11,151 - INFO - mo_script_parser.py:82 - Model received quantization params from the hn
+2025-03-22 23:05:11,339 - INFO - algorithm_base.py:140 - MatmulDecompose skipped
+2025-03-22 23:05:11,346 - INFO - algorithm_base.py:143 - Starting Mixed Precision
+2025-03-22 23:05:11,375 - INFO - algorithm_base.py:159 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.03)
+2025-03-22 23:05:11,385 - INFO - algorithm_base.py:140 - LayerNorm Decomposition skipped
+2025-03-22 23:05:11,409 - INFO - algorithm_base.py:143 - Starting Statistics Collector
+2025-03-22 23:05:11,411 - INFO - stats_collection.py:77 - Using dataset with 64 entries for calibration
+2025-03-22 23:05:14,048 - INFO - algorithm_base.py:159 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:02.64)
+2025-03-22 23:05:14,120 - INFO - algorithm_base.py:143 - Starting Fix zp_comp Encoding
+2025-03-22 23:05:14,121 - INFO - algorithm_base.py:159 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2025-03-22 23:05:14,121 - INFO - algorithm_base.py:140 - Matmul Equalization skipped
+2025-03-22 23:05:14,127 - INFO - conv_stripped_op.py:614 - No shifts available for layer model/conv1/conv_op, using max shift instead. delta=0.3489
+2025-03-22 23:05:14,823 - INFO - algorithm_base.py:140 - Finetune encoding skipped
+2025-03-22 23:05:14,824 - INFO - algorithm_base.py:140 - Bias Correction skipped
+2025-03-22 23:05:14,825 - INFO - algorithm_base.py:140 - Adaround skipped
+2025-03-22 23:05:14,826 - INFO - algorithm_base.py:140 - Quantization-Aware Fine-Tuning skipped
+2025-03-22 23:05:15,308 - INFO - algorithm_base.py:140 - Layer Noise Analysis skipped

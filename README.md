@@ -24,13 +24,13 @@
 <hr>
 
 ## Team Members
-Jake Honma - MAE Controls & Robotics - Class of 2026
+Jake Honma - MAE Controls & Robotics - Class of 2026 - jhonma@ucsd.edu
 
-Harsh Salva - MAE Controls & Robotics - Class of 2026
+Harsh Salva - MAE Controls & Robotics - Class of 2026 - hsavla@ucsd.edu
 
-Andrew Dunker - ECE ML & Controls - Class of 2025
+Andrew Dunker - ECE ML & Controls - Class of 2025 - adunker@ucsd.edu
 
-Jingli Zhou - Math/CS- Class of 2027
+Jingli Zhou - Math/CS- Class of 2027 - jiz228@ucsd.edu
 <hr>
 
 ## Abstract
@@ -41,6 +41,7 @@ Our project aimed to measure the performance of deep-learning models trained on 
 Promised
 *Benchmarked performance for:
   * Jetson Nano w Tensorflow/TensorRT
+    <img width="800" alt="Nano Picture" src="https://m.media-amazon.com/images/I/71alMFID+vL._AC_UF894,1000_QL80_.jpg">
   * Jetson NX w Tensorflow/TensorRT
   * RPI w Tensorflow/HailoRT
 *Documentation for the Process
@@ -80,7 +81,7 @@ Stretch Goals
 <hr>
 
 ## Challenges
--Going into the project our Jetson SD card was corrupted. Initially, we used a backup image, but this was using a lower version JetPack that did not allow us to test models. We then had to completely reflash our SD card, reinstall all the dependencies, and setup up DonkeyCar again.
+- Going into the project our Jetson SD card was corrupted. Initially, we used a backup image, but this was using a lower version JetPack that did not allow us to test models. We then had to completely reflash our SD card, reinstall all the dependencies, and setup up DonkeyCar again.
 - There is out-of-date documentation for converting linear models to utilize TensorRT GPU acceleration. This needed to be updated and varied based on different dependencies across the Jetson Nano & Jetson NX.
 - Without GPU access in a previously set-up docker container, TensorRT conversion could not be completed. 
 - Due to the recency of which Hailo Executable Files were introduced and the limited documentation, attempting to integrate .hef files into DonkeyCar was difficult.
@@ -93,6 +94,7 @@ Stretch Goals
 ## Documentation
 - [TensorRT Directory Conversion](https://docs.google.com/document/d/1uFYIIE-uktmeWYbOzpLOD6yCFHX5uv2XQ3kKLQtFRs0/edit?usp=sharing)
 - [RPI Setup & AIHAT+ Benchmarking](https://docs.google.com/document/d/1QD8mm4k70a3tMuctATGWsUEb5U5Y7lgBpjXv3FvxDJg/edit?usp=sharing)
+  
 
 <hr>
 

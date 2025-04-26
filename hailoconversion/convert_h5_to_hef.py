@@ -39,9 +39,12 @@ for node in graph.node:
 leaf_nodes = []
 for node in graph.node:
     if node.name not in children:
-        leaf_nodes.append(node.name)
+        leaf_nodes.append(node)
 
-end_node_names = leaf_nodes
+end_node_names = []
+for node in leaf_nodes:
+    if node.op in ("Identity", "Dense", "Softmax", "Conv2D", "MatMul"):  # output-producing ops
+        end_node_names.append(node.name)
 
 print("Auto-detected output nodes:", end_node_names)
 

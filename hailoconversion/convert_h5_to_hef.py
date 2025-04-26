@@ -45,12 +45,28 @@ hn_output_names = [
 ]
 print("Detected HN outputs:", hn_output_names)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 30748c2 (rewrote script generator)
 script = "\n".join([
     *(f"quantization_param('{name}',precision_mode=a16_w16)" for name in hn_output_names),
     *(f"output_param('{name}',format=view)" for name in hn_output_names),
     "allocator_param(enable_muxer=True)",
     "hef_param(should_use_sequencer=True,params_load_time_compression=True)"
 ]) + "\n"
+<<<<<<< HEAD
+=======
+lines = []
+for name in hn_output_names:
+    lines.append(f'quantization_param("{name}",precision_mode=a16_w16)')
+for name in hn_output_names:
+    lines.append(f'output_param("{name}",format=view)')
+lines.append('allocator_param(enable_muxer=True)')
+lines.append('hef_param(should_use_sequencer=True,params_load_time_compression=True)')
+>>>>>>> parent of 191c5f6 (adjusted scope in script)
+=======
+>>>>>>> parent of 30748c2 (rewrote script generator)
 
 with open("model_script.alls","w") as f:
     f.write(script)

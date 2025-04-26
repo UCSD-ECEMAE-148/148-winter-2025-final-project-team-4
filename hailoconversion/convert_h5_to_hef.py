@@ -46,8 +46,8 @@ hn_output_names = [
 print("Detected HN outputs:", hn_output_names)
 
 script = "\n".join([
-    *(f"quantization_param(\"{name}\",precision_mode=a16_w16)" for name in hn_output_names),
-    *(f"output_param(\"{name}\",format=view)" for name in hn_output_names),
+    *(f"quantization_param('{name}',precision_mode=a16_w16)" for name in hn_output_names),
+    *(f"output_param('{name}',format=view)" for name in hn_output_names),
     "allocator_param(enable_muxer=True)",
     "hef_param(should_use_sequencer=True,params_load_time_compression=True)"
 ]) + "\n"

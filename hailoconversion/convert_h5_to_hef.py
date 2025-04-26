@@ -1,7 +1,6 @@
 import os, shutil
 import argparse, glob, random
 import json
-import collections
 import numpy as np
 from PIL import Image
 import tensorflow as tf
@@ -27,24 +26,8 @@ saved_model_dir = args.input_h5.replace(".h5", "_savedmodel")
 model.save(saved_model_dir, include_optimizer=False)
 
 loaded = tf.saved_model.load(saved_model_dir)
-
 infer = loaded.signatures["serving_default"]
-graph = infer.graph.as_graph_def()
-
-children = collections.defaultdict(list)
-for node in graph.node:
-    for input_node in node.input:
-        children[input_node.split(":")[0]].append(node.name)
-
-leaf_nodes = []
-for node in graph.node:
-    if node.name not in children:
-        leaf_nodes.append(node.name)
-
-end_node_names = leaf_nodes
-
-print("Auto-detected output nodes:", end_node_names)
-
+end_node_names = [tensor.op.name for tensor in infer.outputs]
 
 runner = ClientRunner(hw_arch="hailo8")
 

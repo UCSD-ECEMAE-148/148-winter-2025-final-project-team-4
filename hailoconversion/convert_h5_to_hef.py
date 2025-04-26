@@ -1,7 +1,6 @@
 import os, shutil
 import argparse, glob, random
 import json
-import collections
 import numpy as np
 from PIL import Image
 import tensorflow as tf
@@ -9,9 +8,9 @@ from hailo_sdk_client import ClientRunner
 from hailo_sdk_client.exposed_definitions import InferenceContext
 
 def load_images(paths, h=120, w=160):
-    arr = np.zeros((len(paths), h, w, 3), dtype=np.float32)
-    for i, p in enumerate(paths):
-        arr[i] = np.asarray(Image.open(p).convert("RGB").resize((w, h)))
+    arr = np.zeros((len(paths),h,w,3),dtype=np.float32)
+    for i,p in enumerate(paths):
+        arr[i] = np.asarray(Image.open(p).convert("RGB").resize((w,h)))
     return arr
 
 parser = argparse.ArgumentParser()
@@ -23,35 +22,12 @@ args = parser.parse_args()
 print("Loading Keras model:", args.input_h5)
 model = tf.keras.models.load_model(args.input_h5)
 
-outputs = []
-for idx, output in enumerate(model.outputs):
-    outputs.append(tf.identity(output, name=f"output{idx}"))
-
-model = tf.keras.Model(inputs=model.inputs, outputs=outputs)
-
 saved_model_dir = args.input_h5.replace(".h5", "_savedmodel")
 model.save(saved_model_dir, include_optimizer=False)
 
 loaded = tf.saved_model.load(saved_model_dir)
 infer = loaded.signatures["serving_default"]
-graph = infer.graph.as_graph_def()
-
-children = collections.defaultdict(list)
-for node in graph.node:
-    for input_node in node.input:
-        children[input_node.split(":")[0]].append(node.name)
-
-leaf_nodes = []
-for node in graph.node:
-    if node.name not in children:
-        leaf_nodes.append(node)
-
-end_node_names = []
-for node in leaf_nodes:
-    if node.op in ("Identity", "Dense", "Softmax", "Conv2D", "MatMul"):
-        end_node_names.append(node.name)
-
-print("Auto-detected output nodes:", end_node_names)
+end_node_names = [tensor.op.name for tensor in infer.outputs]
 
 runner = ClientRunner(hw_arch="hailo8")
 
@@ -70,13 +46,13 @@ hn_output_names = [
 print("Detected HN outputs:", hn_output_names)
 
 script = "\n".join([
-    *(f"quantization_param({name},precision_mode=a16_w16)" for name in end_node_names),
-    *(f"output_param {name}" for name in end_node_names),
+    *(f"quantization_param({name},precision_mode=a16_w16)" for name in hn_output_names),
+    *(f"output_param({name})" for name in end_node_names),
     "allocator_param(enable_muxer=True)",
     "hef_param(should_use_sequencer=True,params_load_time_compression=True)"
 ]) + "\n"
 
-with open("model_script.alls", "w") as f:
+with open("model_script.alls","w") as f:
     f.write(script)
 
 paths = sorted(glob.glob(f"{args.calib_images}/*.jpg") + glob.glob(f"{args.calib_images}/*.png"))

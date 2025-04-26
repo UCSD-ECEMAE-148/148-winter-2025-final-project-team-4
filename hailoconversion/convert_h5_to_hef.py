@@ -23,12 +23,6 @@ args = parser.parse_args()
 print("Loading Keras model:", args.input_h5)
 model = tf.keras.models.load_model(args.input_h5)
 
-outputs = []
-for output in model.outputs:
-    outputs.append(tf.identity(output, name=f"output{len(outputs)}"))
-
-model = tf.keras.Model(inputs=model.inputs, outputs=outputs)
-
 saved_model_dir = args.input_h5.replace(".h5", "_savedmodel")
 model.save(saved_model_dir, include_optimizer=False)
 

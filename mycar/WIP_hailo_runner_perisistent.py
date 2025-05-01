@@ -13,13 +13,10 @@ class HailoRunner:
         network_groups = self.device.configure(self.hef, self.configure_params)
         self.network_group = network_groups[0]
         
-        self.input_vstreams_params = InputVStreamParams.make(
-            self.network_group, format_type=FormatType.FLOAT32)
-        self.output_vstreams_params = OutputVStreamParams.make(
-            self.network_group, format_type=FormatType.FLOAT32)
+        self.input_vstreams_params = InputVStreamParams.make(self.network_group, format_type=FormatType.FLOAT32)
+        self.output_vstreams_params = OutputVStreamParams.make(self.network_group, format_type=FormatType.FLOAT32)
         
-        self.vstreams = self.network_group.activate(
-            self.input_vstreams_params, self.output_vstreams_params)
+        self.vstreams = self.network_group.activate(self.input_vstreams_params, self.output_vstreams_params)
         
         self.input_vstream = self.vstreams.inputs[0]
         self.output_vstream = self.vstreams.outputs[0]
